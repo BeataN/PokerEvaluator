@@ -1,16 +1,12 @@
 # PokerEvaluator
 
-PokerEvaluator is a program that compare poker hands and determines a winner.
-A poker hand has a constructor that accepts a string containing 5 cards: 
-```
-var hand = new PokerHand("KS 2H 5C JD TD");
-```
-and a method to compare itself to another hand.
+PokerEvaluator is a program that compares poker hands and determines a winner.
 
-```
-const pickWinner = (hand1, hand2) => {
-};
-```
+You can pick a winner by calling a function pickWinner and by passing a value of a hand as an arguments.
+Example:<br>
+pickWinner("KS 2H 5C JD TD", "KS 2H 5C JD TD")
+
+
 The result of your poker hand compare can be one of these 3 options:
 
 * Win should return the integer **1**
