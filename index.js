@@ -103,6 +103,7 @@ const hasTwoPairs = hand => {
 };
 
 // HAS PAIR
+
 const hasPair = hand => {
   const cards = hand.split(" ");
   let result = false;
